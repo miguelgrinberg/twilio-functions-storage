@@ -29,7 +29,7 @@ exports.handler = async function(context, event, callback) {
 ## Implementation Notes
 
 Internally, this package uses [Environment Variable](https://www.twilio.com/docs/runtime/functions-assets-api/api/variable)
-resources to permanently store data. All the variables created by this packaage
+resources to permanently store data. All the variables created by this package
 begin with the prefix `S_`.
 
 ### Limits
@@ -37,4 +37,4 @@ begin with the prefix `S_`.
 The following are the limitations of this implementation:
 
 - Item values cannot be longer than 450 bytes.
-- The Twilio Runtime allocate approximately 3KB for environment variable storage.
+- The Twilio Runtime allocates approximately 3KB for environment variable storage.
