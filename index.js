@@ -9,7 +9,7 @@ const Storage = (context) => {
     }
   }
   else {
-    vars = require('dotenv').config({ path: 'storage.env' }).parsed;
+    vars = require('dotenv').config({ path: 'storage.env' }).parsed || {};
   }
 
   return {
